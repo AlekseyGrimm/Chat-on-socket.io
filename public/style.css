@@ -9,14 +9,13 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: rgb(126, 109, 88);
+    background: #4b295e;
 }
 
 section.chat__section {
     width: 800px;
     max-width: 90%;
-    background: white;
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),0 4px 6 px - 2 px rgba(0,0,0, 0.05)
+    background: #bfeae9;
 }
 
 .brand {
@@ -27,8 +26,8 @@ section.chat__section {
 }
 
 .brand h1 {
-    font-size: 20px;
-    color: #444;
+    font-size: 30px;
+    color: #7d0a53;
     margin-left: 10px;
 }
 
@@ -47,7 +46,7 @@ textarea {
     padding: 20px;
     font-size: 16px;
     outline: none;
-    background: rgb(226, 211, 211);
+    background:#8c8eb3;
 }
 
 .message {
@@ -64,8 +63,8 @@ textarea {
 }
 
 .outgoing {
-    background: rgb(29, 7, 126);
-    color: rgb(255, 0, 170);
+    background:#080808;
+    color:#23ff00;
     margin-left: auto;
 }
 
@@ -73,6 +72,6 @@ textarea {
     position: absolute;
     top: -20px;
     left: 0;
-    color: black;
+    color: #f62b2b;
     font-size: 14px;
 }
